@@ -1,0 +1,129 @@
+global:
+  language: "NL"
+
+article:
+  anchor_label: "Anker"
+  date: "{{ .Date }}"
+  date_updated: "Geupdate: {{ .Date }}"
+  draft: "Draft"
+  edit_title: "Bewerk inhoud"
+  reading_time:
+    one: "{{ .Count }} min"
+    other: "{{ .Count }} min"
+  reading_time_title: "Leestijd"
+  table_of_contents: "Inhoudsopgave"
+  word_count:
+   one: "{{ .Count }} Woord"
+   other: "{{ .Count }} Woorden"
+  part_of_series: "Dit artikel ist deel van een serie."
+  part: "deel"
+  this_article: "Dit artikel"
+  related_articles: "Verwandte Artikel"
+
+author:
+  byline_title: "Auteur"
+
+code:
+  copy: "Kopieren"
+  copied: "Gekopieerd"
+
+error:
+  404_title: "Helaas niet gevonden :confused:"
+  404_error: "Error 404"
+  404_description: "Het lijkt erop dat deze site niet bestaat."
+
+footer:
+  dark_appearance: "Overschakelen naar donker"
+  light_appearance: "Overschakelen naar helder"
+  powered_by: ""
+
+list:
+  externalurl_title: "Link naar externe site"
+  no_articles: "Hier zijn nog geen berichten."
+
+nav:
+   scroll_to_top_title: "Scroll naar boven"
+   skip_to_main: "Naar de inhoud gaan"
+
+search:
+   open_button_title: "Zoek (/)"
+   close_button_title: "Sluiten (Esc)"
+   input_placeholder: "Zoeken"
+
+sharing:
+  email: "Per email delen"
+  facebook: "Deel op Facebook"
+  linkedin: "Deel op LinkedIn"
+  pinterest: "Pin op Pinterest"
+  reddit: "Verzenden naar Reddit"
+  twitter: "Delen op Twitter"
+
+shortcode:
+  recent_articles: "Recent"
+
+
+recent:
+  show_more: "Meer tonen"
+  article: "Artikel"
+  anchor_label: "Anker"
+  date: "{{ .Date }}"
+  date_updated: "Geupdate: {{ .Date }}"
+  draft: "Draft"
+  edit_title: "Bewerk inhoud"
+  reading_time:
+    one: "{{ .Count }} min"
+    other: "{{ .Count }} min"
+  reading_time_title: "Leestijd"
+  table_of_contents: "Inhoudsopgave"
+  word_count:
+   one: "{{ .Count }} Woord"
+   other: "{{ .Count }} Woorden"
+  part_of_series: "Dit artikel ist deel van een serie."
+  part: "deel"
+  this_article: "Dit artikel"
+  related_articles: "Verwandte Artikel"
+
+author:
+  byline_title: "Auteur"
+
+code:
+  copy: "Kopieren"
+  copied: "Gekopieerd"
+
+error:
+  404_title: "Helaas niet gevonden :confused:"
+  404_error: "Error 404"
+  404_description: "Het lijkt erop dat deze site niet bestaat."
+
+footer:
+  dark_appearance: "Overschakelen naar donker"
+  light_appearance: "Overschakelen naar helder"
+  powered_by: "Powered by Nonhandig.nl"
+
+list:
+  externalurl_title: "Link naar externe site"
+  no_articles: "Hier zijn nog geen berichten."
+
+nav:
+   scroll_to_top_title: "Scroll naar boven"
+   skip_to_main: "Naar de inhoud gaan"
+
+search:
+   open_button_title: "Zoek (/)"
+   close_button_title: "Sluiten (Esc)"
+   input_placeholder: "Zoeken"
+
+sharing:
+  email: "Per email delen"
+  facebook: "Deel op Facebook"
+  linkedin: "Deel op LinkedIn"
+  pinterest: "Pin op Pinterest"
+  reddit: "Verzenden naar Reddit"
+  twitter: "Delen op Twitter"
+
+shortcode:
+  recent_articles: "Recent"
+
+
+recent:
+  show_more: "Meer tonen"

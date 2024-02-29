@@ -1,0 +1,22 @@
+{{ if .IsTranslated }}
+<div>
+  <div class="cursor-pointer flex items-center nested-menu">
+    <a href="#" class="text-neutral" title="{{ .Title }}">
+      {{- i18n "global.language" | markdownify | emojify -}}
+    </a>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 rounded-sm">
+      <div class="flex flex-col space-y-5">
+        {{ range .Translations }}
+        <a href="{{ .RelPermalink }}" class="flex items-center">
+          <p class="butmir" title="{{ .Title }}">
+            {{ .Language.Params.displayName | emojify }}
+          </p>
+        </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

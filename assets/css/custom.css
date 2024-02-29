@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Forum';
+    src: url('/fonts/forum-regular-webfont.woff2') format('woff2'),
+        url('/fonts/forum-regular-webfont.woff') format('woff'),
+        local("Forum Regular"), local("Forum"), local("forumregular");
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+h1 {
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.32), 0px .8px 0px #b0ca61, 0px 1px 0px #95a74f, 0px 1.5px 0px #95ad54;
+}
+
+.h1-home {
+    font-family: Forum;
+    font-size: 5rem !important;
+    line-height: 5rem;
+    letter-spacing: .7rem;
+    transform: scaleY(.85);
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.32), 0px .8px 0px #b0ca61, 0px 1.4px 0px #95a74f, 0px 2px 0px #95ad54;
+}
+
+.h1list,
+.text-neutral,
+.butmir {
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.p-home p,
+.butmir {
+    font-size: 1.1rem !important;
+}
+
+.icon svg {
+    height: 1.4rem;
+    width: 1.4rem;
+    margin: .1rem;
+}
+
+.butmir,
+.thumir,
+.border-2 {
+    border: 0.06rem solid rgba(249, 253, 239, 0.8) !important;
+    outline: 0.03rem solid rgba(0, 0, 0, 0.32) !important;
+    box-shadow: 0 0 0 .06rem rgba(238, 241, 223, 0.5) !important;
+    border-radius: 9px;
+    outline-offset: .07rem !important;
+    background-color: rgba(224, 208, 208, 0.2) !important;
+    transition: all cubic-bezier(0.25, 0.82, 0.165, 1) !important;
+}
+
+.butmir {
+    padding: .5rem .7rem;
+}
+
+.butmir:hover {
+    text-decoration: underline;
+    text-decoration-thickness: .1em;
+    text-decoration-color: rgb(132, 204, 22);
+    color: white !important;
+}
+
+.text-neutral,
+.butmir {
+    text-shadow: 0px 2.5px 2px rgba(0, 0, 0, 0.32), 0px .3px 0px #b0ca61, 0px .7px 0px #95a74f, 0px 1px 0px #95ad54;
+    color: white;
+}
+
+.text-neutral {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.nested-menu:hover a {
+    color: rgb(163, 230, 53);
+}
+
+.logo:hover {
+    transform: translateY(.1rem);
+}
+
+section.grid {
+    gap: 1.4rem;
+}
+
+.thumir {
+    border-radius: .3rem;
+    transition: transform cubic-bezier(0.75, 0.82, 0.165, 1);
+}
+
+.thumir:hover {
+    transform: translateY(4px);
+}
+
+.thumbnail_card {
+    height: 230px;
+}
+
+.vidmir,
+.gallmir {
+    margin: 1rem 0 !important;
+}
+
+ol>li+.text-sm {
+    font-size: 3rem !important;
+}
+
+
+.md\:grid-cols-3cat {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.arrow_box {
+    position: relative;
+}
+
+.arrow_box:after,
+.arrow_box:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_box:after {
+    border-color: rgba(0, 0, 0, 0);
+    border-right-color: rgb(163, 230, 53);
+    border-width: 4px;
+    margin-top: -4px;
+}
+
+.arrow_box:before {
+    border-color: rgba(0, 0, 0, 0);
+    border-right-color: rgb(163, 230, 53);
+    border-width: 5px;
+    margin-top: -5px;
+}
+
+.arrow_box-left:after,
+.arrow_box-left:before {
+    right: 0;
+    left: 100%;
+}
+
+.arrow_box-left::after {
+    border-right-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(163, 230, 53);
+}
+
+.arrow_box-left::before {
+    border-right-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(163, 230, 53);
+}
+
+.bordertransp {
+    border-color: transparent;
+}
+
+@media only screen and (min-width:852px) {
+    .articlemir {
+        margin-top: 14rem;
+    }
+
+    .md\:grid-cols-3cat {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    #single_header h1 {
+        margin-top: 8rem;
+    }
+
+    .article-content {
+        margin-top: 1rem;
+    }
+
+    .brmir div {
+        width: 6.2rem !important;
+        max-width: 6.2rem !important;
+        padding-right: .5rem;
+    }
+
+    .brmir {
+        padding-top: 2.5rem !important;
+    }
+
+    .breadmir {
+        display: block;
+        justify-content: none;
+        margin-top: 2rem;
+    }
+
+    .breadmir span {
+        margin-bottom: 0rem;
+        align-self: center;
+    }
+
+    .arrow_box {
+        margin-bottom: 1em;
+    }
+}

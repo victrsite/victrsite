@@ -1,0 +1,11 @@
+{{ $id := delimit (slice "gallery" (partial "functions/uid.html" .)) "-" }}
+
+<div id="{{ $id }}" class="vidmir w-full grid gap-4 sm:grid-cols-2 md:grid-cols-2">
+  {{ .Inner }}
+  {{ $video := (.Page.Resources.Match "video/*.mp4") }}
+{{ with $video }}
+    {{ range . }}
+    <video width="100%" height="auto" controls src="{{ .Permalink }}" title="{{ .Title }}"  allowfullscreen ></video>
+    {{ end }}
+{{ end }}
+</div>

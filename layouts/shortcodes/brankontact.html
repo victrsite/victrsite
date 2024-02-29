@@ -1,0 +1,15 @@
+{{- $address := .Get "address" | default .Site.Params.themeSettings.address -}}
+{{- $protocol := .Get "protocol" | default .Site.Params.themeSettings.protocol | default "mailto" -}}
+{{- $class := .Get "class" | default .Site.Params.themeSettings.class -}}
+{{- $title := .Get "title"| default .Site.Params.themeSettings.title  -}}
+{{- $display := .Get "display" | default .Site.Params.themeSettings.display -}}
+  <a href="{{$protocol}}:{{$address}}" 
+  onclick="sedje()"
+  class={{$class}} 
+  title={{$title}}
+  >{{$display}}<a>
+    <script type="text/javascript" >
+      function sedje() {
+        onclick="this.href=this.href.replace(/x/g,'');" 
+      }
+    </script>

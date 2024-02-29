@@ -1,0 +1,17 @@
+<!-- https://github.com/christianspecht/code-examples/tree/master/hugo-gallery-example -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+
+{{ $id := delimit (slice "gallery" (partial "functions/uid.html" .)) "-" }}
+
+<div id="{{ $id }}" class="gallmir w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  {{ .Inner }}
+  {{ $image := (.Page.Resources.Match "*") }}
+{{ with $image }}
+    {{ range . }}
+    <a href="{{ .Permalink }}" title="{{ .Title | humanize }}" data-lightbox="x"><img src="{{ .Permalink }}" title="{{ .Title | humanize }}" class="x" /></a>
+    {{ end }}
+{{ end }}
+</div>

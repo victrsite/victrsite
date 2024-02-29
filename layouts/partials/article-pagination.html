@@ -1,0 +1,52 @@
+{{ if .Params.showPagination | default (.Site.Params.article.showPagination | default true) }}
+  {{ if or .NextInSection .PrevInSection }}
+    {{ $next := .NextInSection }}
+    {{ $prev := .PrevInSection }}
+    {{ if .Params.invertPagination | default (.Site.Params.article.invertPagination | default false) }}
+      {{ $next = .PrevInSection }}
+      {{ $prev = .NextInSection }}
+    {{ end }}
+    <div class=" ">
+      <div class="flex justify-between breadmir">
+        <span>
+          {{ if $prev }}
+            <a class="flex group mr-3 arrow_box" href="{{ $prev.RelPermalink }}">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral-400 dark:group-hover:text-primary-400"
+                ></span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral-400 dark:group-hover:text-primary-400"
+                >
+              </span>
+              <span class="flex flex-col">
+                <span
+                  class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden group-hover:underline group-hover:decoration-primary-500"
+                  >{{ $prev.Title | emojify }}</span>
+              </span>
+            </a>
+          {{ end }}
+        </span>
+        <span>
+          {{ if $next }}
+            <a class="flex text-right group ml-3 arrow_box arrow_box-left" href="{{ $next.RelPermalink }}">
+              <span class="flex flex-col">
+                <span
+                  class="text-sm  text-neutral-500 dark:text-neutral-400 print:hidden group-hover:underline group-hover:decoration-primary-500"
+                  >{{ $next.Title | emojify }}</span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral-400 dark:group-hover:text-primary-400"
+                ></span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral-400 dark:group-hover:text-primary-400"
+                ></span
+              >
+            </a>
+          {{ end }}
+        </span>
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
