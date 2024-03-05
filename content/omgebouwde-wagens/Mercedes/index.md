@@ -13,5 +13,4 @@ cascade:
 Een mooie ouwe Bremer van een vriend, plaatwerk compleet gerestaureerd, en imperiaal gebouwd.
 
 {{< gallmir >}}
-{{< /gallmir >}}
 

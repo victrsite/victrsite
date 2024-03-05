@@ -12,7 +12,5 @@ cascade:
 Een satanische freakshow, bediend met machinerie, in samenwerking met @Bloodyvag en @MisfitaTerata bij ADM in Amsterdam. Voor boeking neem contact op!
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}

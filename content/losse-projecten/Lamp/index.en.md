@@ -12,4 +12,3 @@ cascade:
 Scrap Lamp
 
 {{< gallmir >}}
-{{< /gallmir >}}

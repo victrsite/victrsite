@@ -12,7 +12,5 @@ cascade:
 Custodian of La Bréze river, south france
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}

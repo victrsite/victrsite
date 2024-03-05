@@ -12,8 +12,6 @@ cascade:
 A spontaneous improvised spectacle. at After Before Now freeparty at the Granadillo lake, west Spain. Together with @ChipoteCirco and @Darkratcabinet
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}
 

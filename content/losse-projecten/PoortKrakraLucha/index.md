@@ -12,4 +12,3 @@ cascade:
 Gebouwd voor de entree van het oude Studio Complex terrein.
 
 {{< gallmir >}}
-{{< /gallmir >}}

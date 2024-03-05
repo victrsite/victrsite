@@ -12,8 +12,6 @@ cascade:
 Mijn snelle reiziger en werk bus, vol met speciale functies en extras. Doet ook dienst als spektakel platform! Te huur!
 
 {{< gallmir >}}
-{{< /gallmir >}}
 
 {{< vidmir >}}
-{{< /vidmir >}}
 

@@ -17,4 +17,3 @@ cascade:
 Gate built for the forest bridge in our old Freehaven
 
 {{< gallmir >}}
-{{< /gallmir >}}

@@ -12,7 +12,5 @@ cascade:
 Beschermer van La Bréze rivier, zuid Frankrijk.
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}

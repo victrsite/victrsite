@@ -12,4 +12,3 @@ cascade:
 Hangout van de toekomst
 
 {{< gallmir >}}
-{{< /gallmir >}}

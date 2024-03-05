@@ -9,7 +9,8 @@ cascade:
   showAuthor: false
 ---
 
-[In aanbouw]Toekomstig mini theater, binnenkort te huur!
+[In aanbouw] Toekomstig mini theater, binnenkort te huur!
+
+{{< vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}

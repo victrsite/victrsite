@@ -17,4 +17,3 @@ cascade:
 Poort gebouwd voor het bospad in onze oude vrijplaats, Studio Complex
 
 {{< gallmir >}}
-{{< /gallmir >}}

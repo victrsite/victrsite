@@ -12,4 +12,3 @@ cascade:
 Schroot Lamp
 
 {{< gallmir >}}
-{{< /gallmir >}}

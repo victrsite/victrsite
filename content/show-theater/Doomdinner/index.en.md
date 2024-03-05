@@ -12,7 +12,5 @@ cascade:
 Dystopic dinner that is doomed, everything will go wrong! Contact for bookings.
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}

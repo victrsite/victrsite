@@ -12,7 +12,5 @@ cascade:
 Een spontaan geïmproviseerd spektakel. Bij After Before Now freeparty bij het Granadillo meer, west Spanje. Samen met @ChipoteCirco en @Darkratcabinet.
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}

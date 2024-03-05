@@ -12,8 +12,6 @@ cascade:
 My fast traveller and work van, full of custom a features. Also serves as a spectacle platform! For rent!
 
 {{< gallmir >}}
-{{< /gallmir >}}
 
 {{< vidmir >}}
-{{< /vidmir >}}
 

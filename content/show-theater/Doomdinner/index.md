@@ -12,7 +12,5 @@ cascade:
 Dystopisch diner dat gedoemd is om fout te gaan! Neem contact op om te boeken.
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}

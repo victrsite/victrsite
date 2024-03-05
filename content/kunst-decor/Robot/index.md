@@ -12,7 +12,5 @@ cascade:
 Freeparty ter ere van ZMK's 23 jarig bestaan. Robot gebouwd door @Jelledegraaf, mee dansend op de dansvloer.
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}

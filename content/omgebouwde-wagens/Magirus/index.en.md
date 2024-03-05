@@ -12,4 +12,3 @@ cascade:
 My trusty travel companion, completely custom built, and a recurring platform for our spectacles.
 
 {{< gallmir >}}
-{{< /gallmir >}}

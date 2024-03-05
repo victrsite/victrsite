@@ -12,4 +12,3 @@ cascade:
 Hangout from the future
 
 {{< gallmir >}}
-{{< /gallmir >}}

@@ -12,8 +12,6 @@ cascade:
 Brief but fierce spectacle hosted in our freehaven. With @Painalflatch, @Darkratcabinet and Marijn.
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}
 

@@ -12,8 +12,6 @@ cascade:
 Korte maar heftige show te gast bij onze vrijhaven Studio Complex. Met @Painalflatch, @Darkratcabinet and Marijn.
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}
 

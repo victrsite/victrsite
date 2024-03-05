@@ -12,4 +12,3 @@ cascade:
 Hangar like tent that serves as a tall ballroom like bar, and has a double function to host the Magirus.
 
 {{< gallmir >}}
-{{< /gallmir >}}

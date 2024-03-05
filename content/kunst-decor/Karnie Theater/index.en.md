@@ -12,5 +12,3 @@ cascade:
 [Under construction] Future mini theater, soon for rent!
 
 {{< gallmir >}}
-{{< /gallmir >}}
-

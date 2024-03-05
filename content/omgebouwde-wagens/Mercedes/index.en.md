@@ -13,4 +13,3 @@ cascade:
 A beautiful old Bremer of a friend, completely restored the bodywork and built the imperial.
 
 {{< gallmir >}}
-{{< /gallmir >}}

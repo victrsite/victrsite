@@ -13,4 +13,3 @@ Hexagonal tent, built exclusively with recycled materials in Barcelona.
 <br>
 
 {{< gallmir >}}
-{{< /gallmir >}}

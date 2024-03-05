@@ -12,4 +12,3 @@ cascade:
 Hexagonale tent gebouwd met exclusief gerecyclede materialen in Barcelona. Te huur!
 
 {{< gallmir >}}
-{{< /gallmir >}}

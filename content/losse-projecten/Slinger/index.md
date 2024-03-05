@@ -12,7 +12,5 @@ cascade:
 Fietsen met een extra draaipunt, slinger als een slang. Als je het eenmaal kent, voldoet gewoonlijk fietsen niet meer! Worden gemaakt op aanvraag! 
 
 {{< gallmir >}}
-{{< /gallmir >}}
 
 {{< vidmir >}}
-{{< /vidmir >}}

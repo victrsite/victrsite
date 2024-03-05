@@ -13,8 +13,6 @@ A satanic freakshow operated with machinery, in collaboration with @Bloodyvag an
 <br>
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}
 

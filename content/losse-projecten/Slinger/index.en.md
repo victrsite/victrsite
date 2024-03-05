@@ -12,7 +12,5 @@ cascade:
 Bikes with an extra hinge, sling like a snake. Once you know, regular cycling is boring! Taking orders, custom made!
 
 {{< gallmir >}}
-{{< /gallmir >}}
 
 {{< vidmir >}}
-{{< /vidmir >}}

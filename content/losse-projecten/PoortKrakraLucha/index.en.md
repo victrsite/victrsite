@@ -12,4 +12,3 @@ cascade:
 Built for the entry of the old Studio Complex "Freehaven"
 
 {{< gallmir >}}
-{{< /gallmir >}}

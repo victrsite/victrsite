@@ -12,4 +12,3 @@ cascade:
 Hangaar achtige tent die dient als een balzaal achtige bar. Heeft een dubbele functie als thuis van de Magirus.
 
 {{< gallmir >}}
-{{< /gallmir >}}

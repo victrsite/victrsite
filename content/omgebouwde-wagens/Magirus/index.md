@@ -12,4 +12,3 @@ cascade:
 Mijn betrouwbare reisgezel, compleet custom gebouwd, en regelmatig platform voor onze spektakels.
 
 {{< gallmir >}}
-{{< /gallmir >}}

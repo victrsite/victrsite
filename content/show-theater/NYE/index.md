@@ -12,8 +12,6 @@ cascade:
 Hier hebben we twee spektakels gedaan, de Doom Dinner Show en een cabaret met individuele shows van onze crew. Voor boeking neem contact op!
 
 {{< gallmir >}}
-{{< /gallmir >}}
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
