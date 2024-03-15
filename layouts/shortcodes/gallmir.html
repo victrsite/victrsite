@@ -9,7 +9,7 @@
 {{ with $image }}
     {{ range . }}
     <a href="{{ .Permalink }}" data-lightbox="x">
-      <img src="{{ .Permalink }}" title="{{ .Title }}" class="lazy-load gallmir" />
+      <img src="{{ .Permalink }}" title="{{ .Title }}" loading="lazy" class="gallmir" />
     </a>
     {{ end }}
 {{ end }}

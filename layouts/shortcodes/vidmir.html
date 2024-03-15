@@ -4,7 +4,7 @@
   {{ $video := (.Page.Resources.Match "video/*") }}
 {{ with $video }}
     {{ range . }}
-    <video class="flexbox2 lazy-load mb-1" controls src="{{ .Permalink }}" title="{{ .Title }}"  allowfullscreen ></video>
+    <video class="flexbox2 mb-1" controls src="{{ .Permalink }}" title="{{ .Title }}"  allowfullscreen ></video>
     {{ end }}
 {{ end }}
 </div>

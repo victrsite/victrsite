@@ -7,10 +7,10 @@ photos by lanty - unsplash
 
 2. make a folder+file by:
     - Go to folder:
-   [shows theater freeparty](https://github.com/victrsite/viccie/tree/main/content/shows-theater%) /
-   [kunst decor](https://github.com/victrsite/viccie/tree/main/content/kunst-decor) /
-   [omgebouwde wagens](https://github.com/victrsite/viccie/tree/main/content/omgebouwde-wagens) /
-   [losse projecten](https://github.com/victrsite/viccie/tree/main/content/losse-projecten) /
+   [shows theater freeparty](https://github.com/victrsite/victrsite/tree/main/content/show-theater) /
+   [kunst decor](https://github.com/victrsite/victrsite/tree/main/content/kunst-decor) /
+   [omgebouwde wagens](https://github.com/victrsite/victrsite/tree/main/content/omgebouwde-wagens) /
+   [losse projecten](https://github.com/victrsite/victrsite/tree/main/content/losse-projecten) /
     - add file (right-top) - create new file
     - behind blue "viccie" (left-top) u can put the name in the empty field 
     - name it: subject/index.md (rename "subject" to an appropr name for ur showcase)
@@ -38,23 +38,21 @@ Dont remove white lines.
 
 ```shell
 ---
-categories: ['theater', 'freakshow', 'shows', 'wagens', 'kunst', 'decor', 'lamp', 'slingbike', 'poorten']
+categories: ['theater', 'freakshow', 'shows', 'wagens', 'kunst', 'decor', 'fietsen', 'poorten']
 title: "JOUW TITEL HIER"
 date: 2023-09-30
-description: "JOUW TEXT HIER"
+description: "JOUW BESCHRIJVING HIER"
 
 cascade:
   showDate: true
   showAuthor: false
 ---
 
-JOUW TEXT HIER
+JOUW BESCHRIJVING HIER
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}
 
 
 ```
@@ -63,7 +61,7 @@ The english version (index.en.md):
 
 ```shell
 ---
-categories: ['theatre', 'freakshow', 'shows', 'cars', 'art', 'decor', 'lamp', 'slingbike', 'gates']
+categories: ['theatre', 'freakshow', 'shows', 'cars', 'art', 'decor', 'bikes', 'gates']
 title: "UR TITLE HERE"
 date: 2023-09-30
 description: "UR DESCRIPTION HERE"
@@ -76,10 +74,8 @@ cascade:
 UR DESCRIPTION HERE
 
 {{< vidmir >}}
-{{< /vidmir >}}
 
 {{< gallmir >}}
-{{< /gallmir >}}
 
 
 ```
