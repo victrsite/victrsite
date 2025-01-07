@@ -86,7 +86,7 @@ h1 {
     transform: translateY(.1rem);
 }
 img.logo{
-   padding: 0.5rem .5rem .5rem 0;
+   padding: 0.5rem 1rem .5rem 0;
 }
 section.grid {
     gap: 1.4rem;
