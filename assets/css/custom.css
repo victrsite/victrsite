@@ -33,7 +33,7 @@ h1 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .p-home p,
@@ -129,7 +129,9 @@ ol>li+.text-sm {
     font-size: 3rem !important;
 }
 
-
+.text-sm {
+    font-size: .75rem;
+}
 .md\:grid-cols-3cat {
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -183,7 +185,9 @@ ol>li+.text-sm {
 .bordertransp {
     border-color: transparent;
 }
-
+.main-menu a {
+    word-break: normal;
+}
 @media only screen and (min-width:534px) {
     .flexbox2 {
         columns: 3;
@@ -209,7 +213,7 @@ ol>li+.text-sm {
     .article-content {
         margin-top: 1rem;
     }
-
+/* 
     .brmir div {
         width: 6.2rem !important;
         max-width: 6.2rem !important;
@@ -218,9 +222,9 @@ ol>li+.text-sm {
 
     .brmir {
         padding-top: 2.5rem !important;
-    }
+    } */
 
-    .breadmir {
+    /* .breadmir {
         display: block;
         justify-content: none;
         margin-top: 2rem;
@@ -229,7 +233,7 @@ ol>li+.text-sm {
     .breadmir span {
         margin-bottom: 0rem;
         align-self: center;
-    }
+    } */
 
     .arrow_box {
         margin-bottom: 1em;
