@@ -105,7 +105,7 @@ disableTextInHeader = true
   constrainItemsWidth = false
 
 [sitemap]
-  excludedKinds = ["taxonomy", "term"]
+  excludedKinds = ["term"]
 
 [taxonomy]
   showTermCount = false

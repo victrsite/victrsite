@@ -16,6 +16,8 @@ buildFuture = false
 [imaging]
   anchor = 'Center'
   resampleFilter = 'MitchellNetravali'
+  quality = 85
+
 
 
 [taxonomies]
