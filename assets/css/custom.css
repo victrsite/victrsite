@@ -85,7 +85,9 @@ h1 {
 .logo:hover {
     transform: translateY(.1rem);
 }
-
+img.logo{
+   padding: 0.5rem!important;
+}
 section.grid {
     gap: 1.4rem;
 }
@@ -137,7 +139,13 @@ ol>li+.text-sm {
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.st0{fill:#FFF;}
+.st0 {
+    fill: #FFF;
+}
+svg {
+    width: 4rem;
+    height: 4rem;
+}
 
 .arrow_box {
     position: relative;
