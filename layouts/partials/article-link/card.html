@@ -25,7 +25,7 @@
         <div class="w-full thumbnail_card nozoom" style="background-image:url({{ .RelPermalink }});"></div>
         {{ end }}
       {{ else }}
-        {{ with .Resize "600x webp q90" }}
+        {{ with .Resize "600x webp q85" }}
         <div class="w-full thumbnail_card nozoom" style="background-image:url({{ .RelPermalink }});"></div>
         {{ end }}
       {{ end }}
