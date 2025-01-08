@@ -1,5 +1,5 @@
 ---
-title: "losse projecten"
+title: "Different works"
 description: "Different works."
 series: ["works"]
 series_order: 4
