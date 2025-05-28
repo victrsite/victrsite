@@ -18,8 +18,6 @@ buildFuture = false
   resampleFilter = 'MitchellNetravali'
   quality = 85
 
-
-
 [taxonomies]
   tag = "tags"
   category = "categories"
