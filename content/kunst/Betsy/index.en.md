@@ -1,6 +1,6 @@
 ---
 categories: ['decor', 'art']
-title: "Medusa"
+title: "Betsy"
 date: 2023-07-09
 description: "Built for Going Nowhere, the Spanish burn in the Monegros desert. An accesible tower with a mechanical wing reaching nine meters tall."
 
